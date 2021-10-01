@@ -2,9 +2,11 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start":"nodemon --inspect index.js",
+    "beautiful": "lint-staged",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/ -o src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +25,13 @@
   },
   "homepage": "https://github.com/Leon0102/nodejs-blog-first#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
   },
   "devDependencies": {
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
     "nodemon": "^2.0.13"
   }
 }
