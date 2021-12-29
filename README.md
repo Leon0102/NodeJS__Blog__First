@@ -12,7 +12,7 @@ Xây dựng ứng dụng cung cấp các chức năng của hệ thống như sa
 -  Cho phép tạo bài đang mới
 -  Cho phép cập nhật thông tin cho bài đăng
 
-![myimage-alt-tag](https://i.ibb.co/fQH7XMp/270229302-981564362440348-4853305306303024107-n.png)
+![myimage-alt-tag](https://i.ibb.co/ZNxCfd8/270229302-981564362440348-4853305306303024107-n.png)
 
 ![myimage-alt-tag](https://i.ibb.co/Pm3pRKJ/265259297-667499217934915-6268336172740404613-n.png)
 
